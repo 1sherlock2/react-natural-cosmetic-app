@@ -2,14 +2,14 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const login = require('./controllers/LoginController');
-const products = require('./controllers/ProductsController');
+const login = require('./src/controllers/LoginController');
+const products = require('./src/controllers/ProductsController');
 const app = express();
 const config = require('config');
-const path = require('path');
 const session = require('express-session');
-const PORT = config.get('port');
 var cookieParser = require('cookie-parser');
+const PORT = config.get('port');
+const mongoUri = config.get('mongoUri');
 
 app.use('/uploads', express.static('uploads'));
 app.use(cookieParser());
@@ -25,7 +25,7 @@ app.use(cors({ credentials: true, origin: true }));
 app.use('/api', urlencodedFalse, bodyParserJsonTrue, login);
 app.use('/products', urlencodedFalse, bodyParserJsonTrue, products);
 
-mongoose.connect(config.get('mongoUri'), {
+mongoose.connect(mongoUri, {
 	useNewUrlParser: true,
 	useFindAndModify: false,
 	useUnifiedTopology: true,
