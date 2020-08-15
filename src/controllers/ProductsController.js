@@ -121,6 +121,12 @@ router.get('/adversitingStock', (req, res) => {
 	});
 });
 
+// stocks
+router.get('/stocks', (req, res) => {
+	StocksModel.find().then((items) => {
+		res.status(200).json({ items });
+	});
+});
 router.post('/stocks', upload.single('img'), (req, res) => {
 	try {
 		const data = req.body;
@@ -140,11 +146,18 @@ router.post('/stocks', upload.single('img'), (req, res) => {
 		console.log(e.message);
 	}
 });
-
-router.get('/stocks', (req, res) => {
-	StocksModel.find().then((items) => {
-		res.status(200).json({ items });
-	});
+router.delete('/stocks/:id', (req, res) => {
+	try {
+		StocksModel.deleteOne({ _id: req.params.id }).then((response) => {
+			if (response) {
+				res.status(200).json({ status: 'deleted' });
+			} else {
+				res.json({ status: 'somethink error' });
+			}
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
 });
 
 //korea
