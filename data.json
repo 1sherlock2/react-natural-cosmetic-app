@@ -1,0 +1,1360 @@
+{
+	"auth": {
+		"email": "alim.gazdiev@gmail.com",
+		"password": "34896GAZ"
+	},
+	"mainContent": {
+		"wrapperImgContent": [
+			{
+				"id": 0,
+				"url": "#",
+				"src": "https://www.letu.ru/common/img/banners/fedaugust_390x200.jpg"
+			},
+			{
+				"id": 1,
+				"url": "#",
+				"src": "https://www.letu.ru/common/img/banners/artdeco_gwp_jul20_390x200.jpg"
+			},
+			{
+				"id": 2,
+				"url": "#",
+				"src": "https://www.letu.ru/common/img/banners/opening_stores_may20_390x200_2.jpg"
+			},
+			{
+				"id": 3,
+				"url": "#",
+				"src": "https://www.letu.ru/common/img/banners/sunscreens_jun20_390x200.jpg"
+			},
+			{
+				"id": 4,
+				"url": "#",
+				"src": "https://www.letu.ru/common/img/banners/hermes_gwp_jun20_390x200.jpg"
+			},
+			{
+				"id": 5,
+				"url": "#",
+				"src": "https://www.letu.ru/common/img/banners/ma_gwp_jun20_390x200.jpg"
+			}
+		],
+		"content": [
+			{
+				"id": 1,
+				"url": "#",
+				"src": "img/content1.jpg"
+			},
+			{
+				"id": 2,
+				"url": "#",
+				"src": "img/content2.jpg"
+			},
+			{
+				"id": 3,
+				"url": "#",
+				"src": "img/content3.jpg"
+			},
+			{
+				"id": 4,
+				"url": "#",
+				"src": "img/content4.jpg"
+			},
+			{
+				"id": 5,
+				"url": "#",
+				"src": "img/content5.jpg"
+			},
+			{
+				"id": 6,
+				"url": "#",
+				"src": "img/content6.jpg"
+			}
+		],
+		"navigationProduct": [
+			{
+				"id": 1,
+				"url": "#",
+				"children": "Для вас"
+			},
+			{
+				"id": 2,
+				"url": "#",
+				"children": "Бестселлеры"
+			},
+			{
+				"id": 3,
+				"url": "#",
+				"children": "Новенькое"
+			},
+			{
+				"id": 4,
+				"url": "#",
+				"children": "Идеи для подарка"
+			}
+		],
+		"stocksMain": [
+			{
+				"id": 1,
+				"image": "../../img/stock1.jpg",
+				"text": "Zo Skin health ossential daily power defense. Ежедневное защитное средство, 50мл",
+				"oldPrice": 11000,
+				"newPrice": 8050,
+				"url": "#",
+				"alt": "#"
+			},
+			{
+				"id": 2,
+				"image": "../../img/stock2.jpg",
+				"text": "'Zo*Skin health effects expliating polish anti-aging formula",
+				"oldPrice": 5250,
+				"newPrice": 4075,
+				"url": "#",
+				"alt": ""
+			},
+			{
+				"id": 3,
+				"image": "../../img/stock3.jpg",
+				"text": "3",
+				"oldPrice": 5250,
+				"newPrice": 4075,
+				"url": "3",
+				"alt": ""
+			},
+			{
+				"id": 4,
+				"image": "../../img/stock4.jpg",
+				"text": "3",
+				"oldPrice": 5250,
+				"newPrice": 4075,
+				"url": "#",
+				"alt": ""
+			},
+			{
+				"id": 5,
+				"image": "../../img/stock5.jpg",
+				"text": "3",
+				"oldPrice": 5250,
+				"newPrice": 4075,
+				"url": "#",
+				"alt": ""
+			},
+			{
+				"id": 6,
+				"image": "../../img/stock6.jpg",
+				"text": "Weekend",
+				"oldPrice": 5250,
+				"newPrice": 4075,
+				"url": "#",
+				"alt": ""
+			},
+			{
+				"id": 7,
+				"image": "../../img/stock7.jpg",
+				"text": "Nina",
+				"oldPrice": 5250,
+				"newPrice": 4075,
+				"url": "#",
+				"alt": ""
+			},
+			{
+				"id": 8,
+				"image": "../../img/stock8.jpg",
+				"text": "Bright Crystal",
+				"oldPrice": 5250,
+				"newPrice": 4075,
+				"url": "#",
+				"alt": ""
+			}
+		],
+		"adversitingStock": [
+			{
+				"id": 1,
+				"url": "#",
+				"src": "app/img/adversiting_stock1.jpg"
+			},
+			{
+				"id": 2,
+				"url": "#",
+				"src": "app/img/adversiting_stock2.jpg"
+			},
+			{
+				"id": 3,
+				"url": "#",
+				"src": "app/img/adversiting_stock3.jpg"
+			},
+			{
+				"id": 4,
+				"url": "#",
+				"src": "app/img/adversiting_stock4.jpg"
+			}
+		]
+	},
+	"stocks": {
+		"isLoaded": {
+			"img": "https://images.unsplash.com/photo-1561920723-e0c68a4fe723?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=421&q=80",
+			"otherInformation": "В данном разделе вы найдете выгодные предложения по заниженным ценам "
+		},
+		"items": [
+			{
+				"id": 0,
+				"name": "Zo Skin health ossential daily power defense. Ежедневное защитное средство, 50мл",
+				"img": "https://lh3.googleusercontent.com/N7r15-lromJJnv1-W1qGARnsqgoXaAlEVi33oT6rUbZwE8hBwVeLPzt3Q1q48GzIL2LI7EGy1Cfa9xbckn-S8Lh2cM59-M_hVHBm-pWB7JZc6lwsOXPmEuyl9Bj5pazTTgpvnV099SEeLosQjyZvj57BiGmIJF4qwqVrABI3HcjtrUgzAQodN1PRm7FXpdBhFcXja0d05zdim-UY2jMkPD8mCdejz72Bo_pGEuXpU6Kv7kJtejmhicb8JvSOgD2QCXfTUc2t6BiNSPI6bt-j5eC4F6cE7hRKyzJpWNLfqiXm0Rq2jc-aLIxdkvHVafwIh4UOkksG-4UXSmyUDpisc7sVYA7MrXaCVHgSSXBh-XYu027ZTNiWSnWBLEQjy2g-VaAm3tsQtKpe5PG0tzkuoR1aupG1PXjRNnw6Ro7ZWNUlSD3xls4L2AaYfVcUzEcDGZ2B3QVHvenIVB5kIH1Ma7vpxgI-HqGVb2lgz6lpI1biRy-dF8o9vrDlIgrpO8DwR1Rz9dEzlrzvpMsaUCDrQXQ2qRnUGq65uCVw4pzSdAfFbC3j8XgPAtykWeJ4JGN_belc2CeSz03rBg5gPHJLtpERki2B498FpmbxYZwenBo9wjnKhZO0ncWQkosYT6QIqSSt7kV79tAuPDxsfgKyc9zGzOpy73kbgB7ILTjnyoYU7WFEUrxYFeSougXR=s250-no?authuser=1",
+				"description": "description1 sadfaslifasi asdnfjandslkfjn alskd fasdf iasdfiasdifwhsinf iasdfil asdf ausidf iasd",
+				"price": 11,
+				"reviews": "reviews1",
+				"brend": "asd",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 1,
+				"date": "31.09.2010",
+				"name": "'Zo*Skin health effects expliating polish anti-aging formula",
+				"img": "https://lh3.googleusercontent.com/KD6bp4ppSTHEHvyXu1W6RuPWi5fjJaOJBNvgHM2w_JQVfz5aZHnl8OA2uhry1C-v5LMcv4coZFInZKK_OIh612LXolrzbrhfAeFI3itT_eu4qR_WTS3mrmERwDZVvBDC9I3FpVX_xw31SIKNb5j5Wj-VcsWbIWsv0Fi2cX2VdrcceCALIjWVX3CM0zs0Qx_W4vZgy3ed6VJuIuB_qhg5lpa8Yfs-XMrzSUzEtRRkHflzUpzo8Gi0VZbk-NMaZlBz6tq0KlZw4ogwUfj3W3BPOfwPu677w8GJrq4-1VvwSYL2Rn_TFkymjIdr9mECdCm6NshTmde-VWhOGQ7CNDIYTe6-sUIRlikP8S1M_9dbiOuoaQyVQZPofSLh3larPxf-wx4clC3yAZdTWc7WmafYpNCiNnTlN60oQ4Th_2ONpj2Kq_zFJf55xvlVpXOGCUTYUKxuDYzrF76aMZ2n27yHP8F3aG6cGkfR3ToLUF2mIbs0jR-W482veBaKeTOk99uq9RJboLe-5Km9xc1DreZCu0sODDuZBWoRgf_upoBuAZ3rxGUOQl9BG_R7ekLbBlJb-3vXzRW9ZILS_ulzy94DgurfuSMbh_XjaipFfgwRoyHyC24wKuGpXC1OVflyJ-CwDQ8RyPTAcpsLaowakBNz3USNG_nnVm1PX-Bn4ZyoZI3lRXckQrLsdVnIoR8R=s250-no?authuser=1",
+				"description": "description2",
+				"price": 22,
+				"reviews": "reviews2",
+				"brend": "fgdfg",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 2,
+				"date": "01.09.2010",
+				"name": "Набор антибактериальных гелей для рук Clean&Safe Алоэ",
+				"img": "https://lh3.googleusercontent.com/Nbd083P-i1UcFBlyT7RHOg-MdNbaHJiaMOATwLkIGmlgBG4gVDS4R0hgIryo2lZG5I8pkqZpDgL72obB8wDsPgJL30ieYgfg5ekygu4uFVLJm2zm1csNhlMbz4T6XHcqopdIa7jiaM3BZDRdErciHX7Y5LA4ST309mSwhOSIJppVkOjFYz5Xuol-eqMmFfBy7A3jPeZ1Frrdbw_8P_jKhqlIHkniXdfFt2F5W9HNKLnONLktUiPc5OHydj0R9gs9N2D5ZV-XApJr-aAAa0bo4MHN0K9K3I6Isn0zLbx3Rq2h05jdkWwir4JGtEtf7DGV6qG_bUiBgq_7g5X62Rswahrt4ESUlr6TOoY6NpMPgSYcbYs_x4ZU3J8_AK_P7alqWGpn3l8tnisGCTIu6Hhb0R5JNG37Dz6RzjHdGUOtlPvsh1X8IcNqoJ5MNnfZU2rdHGia-8_pzKWvd_y_rbND5_0Uq05t5dTcApDHCmMnFjOei-6ssJNBnSsWH73BniiZhy5MKxnqadxcYkoWlHyF-YC8XlkbP5bbS3JvCSJcDiRMSYtsenusngsqOqQyvLibwKzaO8PIQP-vwrD2GUHRjBYDjgn72vtV_URAHhFFV1YKYgBmEGSQCMWTLJGqc5nQQGOUsi2JnVSngKt_ZR238UtHOJGC1QpBQdFbDdDxCXxzau_zl7isHtb0lM3-=s250-no?authuser=1",
+				"description": "description3",
+				"price": 3112,
+				"reviews": "reviews3",
+				"brend": "sdfsdf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 3,
+				"date": "23.09.2010",
+				"name": "Жидкое мыло для рук с антибактериальным эффектом «Марципановый марш»",
+				"img": "https://lh3.googleusercontent.com/Squ8vqUQvw056nWCWf91F8jFGJuBiRZuEF-nqF5Gu0gF5MPldlN_O9oHUunBNf7C0hm5kdqW6e4i4oJH28h1YEf3RQBIwSLKBJZnMsBkoWgs-gR5acp0c0fL68-J-RXWnwwpdAchQLAUO6H6-u58uWeEQ1L-9q1MmmkfnUk6QjAPvao9QkJSJdjbzI5S8PcPmg2gKllWNg_22LvoP1goNwTvPkL6XBrng_s6dG1frAjemCk8cGpcOMCDKMNxmRPKA9G2h-VdqAsD08DL0TJgqfba9ZXz6gy3WEueIWrkHiw6SY3-Y2-t5BzOITOSQ1_u1gWwnQT_pMr36nFNx9EJBLkq3-VgAFBerSFerssZ2Zr7EkCvG8LaALGiP9AjxC9hTiqRRh1l6sNgJhejW9YThfEg_96k7kOQAfrPiAso5weQZSL6B7pn7vVVqS2r5axzxbVehKNJXbxMlZp6qKzJSGn3VDumvWwlO8kuGVhAxn6QsYZBMCJms51zaW3Ld9IdfbTIIti8FO0J9JD4g1WHqihhbptKZyZS5p7X7rv4XliFvlEoN6DbifezhNvd8NO6XyDZP0eIKqZ_F3Kq9vSNkCpGyS3GaLxnavIQ0u4e26mw4lk-_ykQxNjtxSN5LVww9jy7ByAsV4R7zSZq04JUlVVQ2rOFBImwogVl0PdL8ySOp5KKgcZPtMoviT73=s250-no?authuser=1",
+				"description": "description4",
+				"price": 4,
+				"reviews": "reviews4",
+				"brend": "fadsf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 4,
+				"date": "11.09.2010",
+				"name": "3D VOLUME MASCARA #lashlover Тушь для ресниц",
+				"img": "https://lh3.googleusercontent.com/vqUw90oLKsDj2sEjvOGZcQP2NrqpnX6kOB4SfwHqFahHfidJY2hlCZgLR-DTJD5OoFXY8q2NmaLbKigtcFA3l7uq-u8XR0sTdA9pVAbb3LZY4pXQP9tKTKkSo0yMgO_PE6E3hI7wed_2sy3CdTJST9y9evrezu9ZXAGITYeucxj6sm8y2rDHyD3Q9adMHKae-WMEkhqudjl_qr4RwXOGlSbpJd8ZSRJJR7TsMTu4AUMUgwAjMi5nX4T7QnS_fAj9sNeFEwMBIc69t2eNtNorlErYHedhUCThKqwK08ov1GckCb5f5yZVgqaeR17FMpEHpsWlDld_iliv-aNDc-SLL-UndgLGONcevYbcVAWYbU-E4VGY9LdxH3SmhsNMUxt0vM_rvFPU9DvxE-x3qRTMQGE5LGWxxbtmpQpDzeWCWdAcIsb4J_iv6DFDEByr-Jo3ByyhtIi6n63UZW3O68jZ2aVG4MSGLnS1LL_yDaCRvi_OUT4n6kcqAknVso-jQzruOYi9mkGPeuWrxupWqBco40UFr2pc5VSqMG2fRg2wC7h-Z1WWUehmVhEe2qKgvyMD9ECag_rTc2iIgY_OHniqo_gLPCXb0-uSR80B785pDrUoAlH9cY2wDf2tInUc-zXwzjL-drKHu9kE-Lw-RcwxRaqCnxH9DxthwF-GO3EEIiygowrBrRdBKt1t6wzw=s250-no?authuser=1",
+				"description": "description5",
+				"price": 5,
+				"reviews": "reviews5",
+				"brend": "agr",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 5,
+				"date": "14.09.2010",
+				"name": "Набор антибактериальных гелей для рук Clean&Safe Алоэ",
+				"img": "https://lh3.googleusercontent.com/cKjW-ssyQ78gtIPM511OSicJhitsWlgeeP_kBBXkcD_g6PFdUwSxO3N8okR-pl3SEE-sBf9OZdZuzAuVKQ5sxMKMzpirX1-SP7ecIiN3D7pezsrXguXtc1ZTzCzfLBj-JFfTKU5jUJgAJbip0SHcfuWFInFMIxDVUkj8tQfzF1r_hF2XXgIjYtt8Xk6E2JdIe2Jmdm9TeuyLHCd73pXNdAPJurJYjCrlsS1j75vJo8Q5etaOYerZExsM1C3FRxScAc_6Prvefl02ro_ze33n7rdegFD5mDWCERqzyQb9sYrPQmCY2QTD5uj1bEpHED7Udh6pIcd6nO4Az1q52yIgSgeW45ZHgj3NXPMrFRpk_wmr-voqWu7n099bV-hxdjZkGKZmt0h1_U0StYlWhwqHZ9Scdk_dEXheM69nfrAnOQI_vLkdwcyCsXgmJ0F3RNDmATREpMWmFk7KnmO5fpfMxAjDIztN22BwTjJ7O6pGh5oqyujgfx3KKXeLIYWUYkipMl1AMFfC4_wvjKeoIkP0GFQnVoVz8mzogiGrNw7tYpNW5e8fjsSAZGpWQivn80Gz0_-oChWtaPgucbnQtZkoq3GCAVT2tyxVhx073GnTLb3Bj1u8JpC4yR5R0F_KpKshsYNIuSM2YmL7I-0ial43eAywzac4Ob3Pc24uM0BQNhLm77Nsaou2xTVABmpt=s250-no?authuser=1",
+				"description": "description6",
+				"price": 26,
+				"reviews": "reviews6",
+				"brend": "hrter",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 6,
+				"date": "01.09.2010",
+				"name": "Солнцезащитный гель для тела SPF 50 Gel-en-Huile Solaire Corps",
+				"img": "https://lh3.googleusercontent.com/CdDkvKEccP09LUTLOEjnxrEWI8KnVNiqXQcHWmuKiilGaeu1RZ_p-T7r5Q9P_aFfM8qg8Q2ngyxEsBCfrudz4mxaaI2PDsMe_macJWpDragCsS5CocjuMdShIc16x3ioGNKQMR-9drjugHK6o8WravQLwrfhM35nocEra0dGy2wl2-ue2AITvhA9E0LW5S2GoOeFNupzzd5sR_NUZ14vmpASGKeDwjMa6yZ09sC-Mx5MBV-hGHG-fSrPtbxXi3OhN3pk4OeUZG3RXGp47e4jufd75XvdHpOpvx6H1uwc2iR3t7RamizcFIoio74FwRN0e-hE4fMRtVVHyPK8s2I3qgB1R6U5m4jF4KsE6Bs9kzHYVPcB23UIusCWH-1QkecQNX-CMyEft_4jAuhdnvxg-nFhT-vWWMd-HcFPXsBG1avZxjjdSRAXrO5aUOLiigQG788Omgzy06ZJvBQLjB7rpJZB_3y0jsORW5YzjtnX0_5GcCHHwW-ij5Gii9QDLxodlO7no6C9iv7Y78b-Ksg3X4t-qQ9T1J3UreCNHjsYnZicoA2iUcRci-XL2OAaI9BIoZmKGf7KNrM-EEQ4k9iwFVoAkbUsOXG_pWVmymW2-O9YKt8H_9E0iLSOqY7jYGAoopXzG4c5DYeAKvaFStTx_832xOMOBXrWluNHyrC88mnU5aHvmrHX3v0_WYdO=s250-no?authuser=1",
+				"description": "description7",
+				"price": 7,
+				"reviews": "reviews7",
+				"brend": "sdfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 7,
+				"date": "23.09.2010",
+				"name": "Гель для душа восстанавливающий и питающий с кокосом",
+				"img": "https://lh3.googleusercontent.com/Zb0AnxvEjyCPyB_IJfRt_f28IlrFESWorZq9uSstOmVfRriNS05ebBpII8fNzo0RCT6ZpuixQzm5q5NfNLgjywFJxeuzzuz4FTpcRnZXQkGzqPeA3VmosV_6pJhiLkrRhtA9XU8LBonAvwYfPJM3IiykTpOIkUeSf-u87IuFiRv78tEMqBffpaMIpS568OXPeZhfb2hfGrxQVyPSuvl1-B-ZZmiEqKAQg-a9CAv-Ew7_-9vRYZA-kRkqhm8nvCuMGqIWvn9ACgp2WsZ3idup8ibkIa2YvHnKfYOY038tfdveCYTXdysYr6BzPv189GA_kzqBgAFIBI5vx0f_elBfFSYshbC723q_47h1mS09mA5ygRiARLN-srDBqcGJTZDrEdgbc641KOXd2bLihnT5gZHUm_Hixk5wmqB_AcCXOuh9fLnMllO5riIEJyfyYhNu78YIlc7PBahuHwnJbaGws7J3pke1euIQTE0xu_5XEfynSyYvahd-HBElmTcX0vCzMysh-yQNuZ5BL30MaQxaC8WW1TWjNJ24-luF7QfuU4DlHA6AptlC0t_7irbaPhqNfcA-vrjyzeBKafK0XqkH2YCdvioTSwoqHtaup11t5SKZ_5DtHb-_1TKa-u-uKkpYxAlUbJZKkC_83U7ciNz2aVLMZ3dLhEHB90ho8nCjtMnLQTclx3k-vyBThss1=s250-no?authuser=1",
+				"description": "description8",
+				"price": 81,
+				"reviews": "reviews8",
+				"brend": "uuj",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 8,
+				"date": "51.09.2010",
+				"name": "Сыворотка для лица универсальная омолаживающая",
+				"img": "https://lh3.googleusercontent.com/N7r15-lromJJnv1-W1qGARnsqgoXaAlEVi33oT6rUbZwE8hBwVeLPzt3Q1q48GzIL2LI7EGy1Cfa9xbckn-S8Lh2cM59-M_hVHBm-pWB7JZc6lwsOXPmEuyl9Bj5pazTTgpvnV099SEeLosQjyZvj57BiGmIJF4qwqVrABI3HcjtrUgzAQodN1PRm7FXpdBhFcXja0d05zdim-UY2jMkPD8mCdejz72Bo_pGEuXpU6Kv7kJtejmhicb8JvSOgD2QCXfTUc2t6BiNSPI6bt-j5eC4F6cE7hRKyzJpWNLfqiXm0Rq2jc-aLIxdkvHVafwIh4UOkksG-4UXSmyUDpisc7sVYA7MrXaCVHgSSXBh-XYu027ZTNiWSnWBLEQjy2g-VaAm3tsQtKpe5PG0tzkuoR1aupG1PXjRNnw6Ro7ZWNUlSD3xls4L2AaYfVcUzEcDGZ2B3QVHvenIVB5kIH1Ma7vpxgI-HqGVb2lgz6lpI1biRy-dF8o9vrDlIgrpO8DwR1Rz9dEzlrzvpMsaUCDrQXQ2qRnUGq65uCVw4pzSdAfFbC3j8XgPAtykWeJ4JGN_belc2CeSz03rBg5gPHJLtpERki2B498FpmbxYZwenBo9wjnKhZO0ncWQkosYT6QIqSSt7kV79tAuPDxsfgKyc9zGzOpy73kbgB7ILTjnyoYU7WFEUrxYFeSougXR=s250-no?authuser=1",
+				"description": "description9",
+				"price": 9,
+				"reviews": "reviews9",
+				"brend": "rhfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 9,
+				"date": "43.09.2010",
+				"name": "Моделирующий ночной бальзам DermAbsolu NUIT",
+				"img": "https://lh3.googleusercontent.com/Nbd083P-i1UcFBlyT7RHOg-MdNbaHJiaMOATwLkIGmlgBG4gVDS4R0hgIryo2lZG5I8pkqZpDgL72obB8wDsPgJL30ieYgfg5ekygu4uFVLJm2zm1csNhlMbz4T6XHcqopdIa7jiaM3BZDRdErciHX7Y5LA4ST309mSwhOSIJppVkOjFYz5Xuol-eqMmFfBy7A3jPeZ1Frrdbw_8P_jKhqlIHkniXdfFt2F5W9HNKLnONLktUiPc5OHydj0R9gs9N2D5ZV-XApJr-aAAa0bo4MHN0K9K3I6Isn0zLbx3Rq2h05jdkWwir4JGtEtf7DGV6qG_bUiBgq_7g5X62Rswahrt4ESUlr6TOoY6NpMPgSYcbYs_x4ZU3J8_AK_P7alqWGpn3l8tnisGCTIu6Hhb0R5JNG37Dz6RzjHdGUOtlPvsh1X8IcNqoJ5MNnfZU2rdHGia-8_pzKWvd_y_rbND5_0Uq05t5dTcApDHCmMnFjOei-6ssJNBnSsWH73BniiZhy5MKxnqadxcYkoWlHyF-YC8XlkbP5bbS3JvCSJcDiRMSYtsenusngsqOqQyvLibwKzaO8PIQP-vwrD2GUHRjBYDjgn72vtV_URAHhFFV1YKYgBmEGSQCMWTLJGqc5nQQGOUsi2JnVSngKt_ZR238UtHOJGC1QpBQdFbDdDxCXxzau_zl7isHtb0lM3-=s250-no?authuser=1",
+				"description": "description10",
+				"price": 10,
+				"brend": "fdsaf",
+				"reviews": "reviews10",
+				"text": ["оптом", "розница"]
+			}
+		]
+	},
+	"korea": {
+		"isLoaded": {
+			"img": "https://images.unsplash.com/photo-1515688594390-b649af70d282?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
+			"otherInformation": "В данном разделе представлена коллекция косметики из Южной Кореи"
+		},
+		"items": [
+			{
+				"id": 0,
+				"name": "BB крем GYOOLPY TEA PURE SPF35/ PA++",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ATF386381LG.jpg",
+				"description": "description1 sadfaslifasi asdnfjandslkfjn alskd fasdf iasdfiasdifwhsinf iasdfil asdf ausidf iasd",
+				"price": 11,
+				"reviews": "reviews1",
+				"brend": "asd",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 1,
+				"date": "31.09.2010",
+				"name": "CC крем JASOYUP TEA SUN CC SPF30/PA++",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ATF386382LG.jpg",
+				"description": "description2",
+				"price": 22,
+				"reviews": "reviews2",
+				"brend": "fgdfg",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 2,
+				"date": "01.09.2010",
+				"name": "Вода освежающая для лица GYOOLPY TEA",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ATF288371LG.jpg",
+				"description": "description3",
+				"price": 3112,
+				"reviews": "reviews3",
+				"brend": "sdfsdf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 3,
+				"date": "23.09.2010",
+				"name": "Вода успокаивающая для лица JASOYUP TEA",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ATF288372LG.jpg",
+				"description": "description4",
+				"price": 4,
+				"reviews": "reviews4",
+				"brend": "fadsf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 4,
+				"date": "11.09.2010",
+				"name": "Крем для лица TEA TOC WATER",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ATF803952LG.jpg",
+				"description": "description5",
+				"price": 5,
+				"reviews": "reviews5",
+				"brend": "agr",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 5,
+				"date": "14.09.2010",
+				"name": "Крем для лица с лифтинг эффектом BLACK TEA",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ATF105193LG.jpg",
+				"description": "description6",
+				"price": 26,
+				"reviews": "reviews6",
+				"brend": "hrter",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 6,
+				"date": "01.09.2010",
+				"name": "Маска для лица увлажняющая BLACK TEA",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ATF288273LG.jpg",
+				"description": "description7",
+				"price": 7,
+				"reviews": "reviews7",
+				"brend": "sdfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 7,
+				"date": "23.09.2010",
+				"name": "Крем для лица с лифтинг эффектом BLACK TEA",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ATF105193LG.jpg",
+				"description": "description8",
+				"price": 81,
+				"reviews": "reviews8",
+				"brend": "uuj",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 8,
+				"date": "51.09.2010",
+				"name": "Крем для рук BLACK TEA",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ATF412793LG.jpg",
+				"description": "description9",
+				"price": 9,
+				"reviews": "reviews9",
+				"brend": "rhfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 9,
+				"date": "43.09.2010",
+				"name": "Крем для рук GYOOLPY TEA",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ATF412791LG.jpg",
+				"description": "description10",
+				"price": 10,
+				"brend": "fdsaf",
+				"reviews": "reviews10",
+				"text": ["оптом", "розница"]
+			}
+		]
+	},
+	"perfumery": {
+		"isLoaded": {
+			"img": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+			"otherInformation": "В данном разделе представлена фирменная коллекция порфюмерии"
+		},
+		"items": [
+			{
+				"id": 0,
+				"name": "K by Dolce&Gabbana",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/3423473049654_1LG.jpg",
+				"description": "description1 sadfaslifasi asdnfjandslkfjn alskd fasdf iasdfiasdifwhsinf iasdfil asdf ausidf iasd",
+				"price": 11,
+				"reviews": "reviews1",
+				"brend": "asd",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 1,
+				"date": "31.09.2010",
+				"name": "Si Fiori",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ECA475700LG.jpg",
+				"description": "description2",
+				"price": 22,
+				"reviews": "reviews2",
+				"brend": "fgdfg",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 2,
+				"date": "01.09.2010",
+				"name": "Aqua Allegoria Orange Soleia",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/GUE139572LG.jpg",
+				"description": "description3",
+				"price": 3112,
+				"reviews": "reviews3",
+				"brend": "sdfsdf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 3,
+				"date": "23.09.2010",
+				"name": "L'Ombre des Merveilles",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/HER653V0HLG.jpg",
+				"description": "description4",
+				"price": 4,
+				"reviews": "reviews4",
+				"brend": "fadsf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 4,
+				"date": "11.09.2010",
+				"name": "Idole",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/KLM597800_mainLG.jpg",
+				"description": "description5",
+				"price": 5,
+				"reviews": "reviews5",
+				"brend": "agr",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 5,
+				"date": "14.09.2010",
+				"name": "Beau de Jour",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ESTT8EG01LG.jpg",
+				"description": "description6",
+				"price": 26,
+				"reviews": "reviews6",
+				"brend": "hrter",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 6,
+				"date": "01.09.2010",
+				"name": "Métallique",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/888066089289_1LG.jpg",
+				"description": "description7",
+				"price": 7,
+				"reviews": "reviews7",
+				"brend": "sdfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 7,
+				"date": "23.09.2010",
+				"name": "FLOWER BY KENZO POPPY BOUQUET",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/EKE406209LG.jpg",
+				"description": "description8",
+				"price": 81,
+				"reviews": "reviews8",
+				"brend": "uuj",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 8,
+				"date": "51.09.2010",
+				"name": "FLOWER BY KENZO POPPY BOUQUET",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/EKE406209LG.jpg",
+				"description": "description9",
+				"price": 9,
+				"reviews": "reviews9",
+				"brend": "rhfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 9,
+				"date": "43.09.2010",
+				"name": "Aqua Allegoria Granada Salvia",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/GUE139657LG.jpg",
+				"description": "description10",
+				"price": 10,
+				"brend": "fdsaf",
+				"reviews": "reviews10",
+				"text": ["оптом", "розница"]
+			}
+		]
+	},
+	"skinCare": {
+		"isLoaded": {
+			"img": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+			"otherInformation": "В данном разделе представлена фирменная коллекция порфюмерии"
+		},
+		"items": [
+			{
+				"id": 0,
+				"name": "Солнцезащитный гель для тела SPF 50 Gel-en-Huile Solaire Corps",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLR061414LG.jpg",
+				"description": "description1 sadfaslifasi asdnfjandslkfjn alskd fasdf iasdfiasdifwhsinf iasdfil asdf ausidf iasd",
+				"price": 11,
+				"reviews": "reviews1",
+				"brend": "asd",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 1,
+				"date": "31.09.2010",
+				"name": "Гель для душа восстанавливающий и питающий с кокосом",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ECO0EC066LG.jpg",
+				"description": "description2",
+				"price": 22,
+				"reviews": "reviews2",
+				"brend": "fgdfg",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 2,
+				"date": "01.09.2010",
+				"name": "Гель для душа с блестками БЛЮ КЮРАСАО",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR10237LG.jpg",
+				"description": "description3",
+				"price": 3112,
+				"reviews": "reviews3",
+				"brend": "sdfsdf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 3,
+				"date": "23.09.2010",
+				"name": "Гель для умывания лица с кокосовым маслом и маслом ши",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ECO0EC023LG.jpg",
+				"description": "description4",
+				"price": 4,
+				"reviews": "reviews4",
+				"brend": "fadsf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 4,
+				"date": "11.09.2010",
+				"name": "Скраб для лица отшелушивающий с морской солью и углем",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ECO0EC024LG.jpg",
+				"description": "description5",
+				"price": 5,
+				"reviews": "reviews5",
+				"brend": "agr",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 5,
+				"date": "14.09.2010",
+				"name": "Крем для сухой кожи рук с алоэ вера",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/MAH_32210LG.jpg",
+				"description": "description6",
+				"price": 26,
+				"reviews": "reviews6",
+				"brend": "hrter",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 6,
+				"date": "01.09.2010",
+				"name": "Бальзам для лица NUTRICIA восстанавливающий питательный",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/PAY117047LG.jpg",
+				"description": "description7",
+				"price": 7,
+				"reviews": "reviews7",
+				"brend": "sdfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 7,
+				"date": "23.09.2010",
+				"name": "Сыворотка для лица универсальная омолаживающая",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLSK24711LG.jpg",
+				"description": "description8",
+				"price": 81,
+				"reviews": "reviews8",
+				"brend": "uuj",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 8,
+				"date": "51.09.2010",
+				"name": "Крем для детей нежный солнцезащитный от 3 до 36 месяцев СЗФ 50+",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/NIV085822LG.jpg",
+				"description": "description9",
+				"price": 9,
+				"reviews": "reviews9",
+				"brend": "rhfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 9,
+				"date": "43.09.2010",
+				"name": "Бальзам питательный восстанавливающий для ухода за кожей губ NUTRICIA",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/PAY117048LG.jpg",
+				"description": "description10",
+				"price": 10,
+				"brend": "fdsaf",
+				"reviews": "reviews10",
+				"text": ["оптом", "розница"]
+			}
+		]
+	},
+	"makeUp": {
+		"isLoaded": {
+			"img": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+			"otherInformation": "В данном разделе представлена фирменная коллекция порфюмерии"
+		},
+		"items": [
+			{
+				"id": 0,
+				"name": "Шампунь экстремальное увлажнение «Ханна Банана»",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR49031LG.jpg",
+				"description": "description1 sadfaslifasi asdnfjandslkfjn alskd fasdf iasdfiasdifwhsinf iasdfil asdf ausidf iasd",
+				"price": 11,
+				"reviews": "reviews1",
+				"brend": "asd",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 1,
+				"date": "31.09.2010",
+				"name": "Кондиционер  экстремальное увлажнение «Ханна Банана»",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR49041LG.jpg",
+				"description": "description2",
+				"price": 22,
+				"reviews": "reviews2",
+				"brend": "fgdfg",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 2,
+				"date": "01.09.2010",
+				"name": "Шампунь для объем волос «Ванила-Манила»",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR49032LG.jpg",
+				"description": "description3",
+				"price": 3112,
+				"reviews": "reviews3",
+				"brend": "sdfsdf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 3,
+				"date": "23.09.2010",
+				"name": "Кондиционер для объема волос «Ванила-Манила»",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR49042LG.jpg",
+				"description": "description4",
+				"price": 4,
+				"reviews": "reviews4",
+				"brend": "fadsf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 4,
+				"date": "11.09.2010",
+				"name": "Шампунь питание и восстановление  «Мулатка-шоколадка»",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR49033LG.jpg",
+				"description": "description5",
+				"price": 5,
+				"reviews": "reviews5",
+				"brend": "agr",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 5,
+				"date": "14.09.2010",
+				"name": "Кондиционер питание и восстановление «Мулатка-шоколадка»",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR49043LG.jpg",
+				"description": "description6",
+				"price": 26,
+				"reviews": "reviews6",
+				"brend": "hrter",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 6,
+				"date": "01.09.2010",
+				"name": "Шампунь Detox и контроль жирности  «Заводной мандарин»",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR49036LG.jpg",
+				"description": "description7",
+				"price": 7,
+				"reviews": "reviews7",
+				"brend": "sdfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 7,
+				"date": "23.09.2010",
+				"name": "Кондиционер Detox и контроль жирности «Заводной мандарин»",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR49046LG.jpg",
+				"description": "description8",
+				"price": 81,
+				"reviews": "reviews8",
+				"brend": "uuj",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 8,
+				"date": "51.09.2010",
+				"name": "Шампунь с пребиотиком для здоровья волос «Райские яблочки»",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR49038LG.jpg",
+				"description": "description9",
+				"price": 9,
+				"reviews": "reviews9",
+				"brend": "rhfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 9,
+				"date": "43.09.2010",
+				"name": "Кондиционер с пребиотиком для здоровья волос «Райские яблочки»",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR49048LG.jpg",
+				"description": "description10",
+				"price": 10,
+				"brend": "fdsaf",
+				"reviews": "reviews10",
+				"text": ["оптом", "розница"]
+			}
+		]
+	},
+	"men": {
+		"isLoaded": {
+			"img": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+			"otherInformation": "В данном разделе представлена фирменная коллекция порфюмерии"
+		},
+		"items": [
+			{
+				"id": 0,
+				"name": "Sauvage Parfum",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/F99600455_mainLG.jpg",
+				"description": "description1 sadfaslifasi asdnfjandslkfjn alskd fasdf iasdfiasdifwhsinf iasdfil asdf ausidf iasd",
+				"price": 11,
+				"reviews": "reviews1",
+				"brend": "asd",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 1,
+				"date": "31.09.2010",
+				"name": "K by Dolce&Gabbana",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/3423473049654_1LG.jpg",
+				"description": "description2",
+				"price": 22,
+				"reviews": "reviews2",
+				"brend": "fgdfg",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 2,
+				"date": "01.09.2010",
+				"name": "Beau de Jour",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/ESTT8EG01LG.jpg",
+				"description": "description3",
+				"price": 3112,
+				"reviews": "reviews3",
+				"brend": "sdfsdf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 3,
+				"date": "23.09.2010",
+				"name": "Eros Flame",
+				"img": "https://www.letu.ru/common/img/products/8011003845354_250.jpg",
+				"description": "description4",
+				"price": 4,
+				"reviews": "reviews4",
+				"brend": "fadsf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 4,
+				"date": "11.09.2010",
+				"name": "Guilty Love Edition pour homme",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/3614225299520_1LG.jpg",
+				"description": "description5",
+				"price": 5,
+				"reviews": "reviews5",
+				"brend": "agr",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 5,
+				"date": "14.09.2010",
+				"name": "Moustache",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/WLLC17A01LG.jpg",
+				"description": "description6",
+				"price": 26,
+				"reviews": "reviews6",
+				"brend": "hrter",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 6,
+				"date": "01.09.2010",
+				"name": "Green Wood",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/DSQ005D10LG.jpg",
+				"description": "description7",
+				"price": 7,
+				"reviews": "reviews7",
+				"brend": "sdfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 7,
+				"date": "23.09.2010",
+				"name": "Ombre Leather",
+				"img": "https://www.letu.ru/common/img/products/888066075145_250.jpg",
+				"description": "description8",
+				"price": 81,
+				"reviews": "reviews8",
+				"brend": "uuj",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 8,
+				"date": "51.09.2010",
+				"name": "Blue Seduction Doses For Men",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/BAN147579LG.jpg",
+				"description": "description9",
+				"price": 9,
+				"reviews": "reviews9",
+				"brend": "rhfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 9,
+				"date": "43.09.2010",
+				"name": "King Of Seduction Doses",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/BAN147605LG.jpg",
+				"description": "description10",
+				"price": 10,
+				"brend": "fdsaf",
+				"reviews": "reviews10",
+				"text": ["оптом", "розница"]
+			}
+		]
+	},
+	"accessories": {
+		"isLoaded": {
+			"img": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+			"otherInformation": "В данном разделе представлена фирменная коллекция порфюмерии"
+		},
+		"items": [
+			{
+				"id": 0,
+				"name": "Губка для душа",
+				"img": "https://www.letu.ru/common/img/uploaded/product/big/2011/10/19/DMDF00030.jpg",
+				"description": "description1 sadfaslifasi asdnfjandslkfjn alskd fasdf iasdfiasdifwhsinf iasdfil asdf ausidf iasd",
+				"price": 11,
+				"reviews": "reviews1",
+				"brend": "asd",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 1,
+				"date": "31.09.2010",
+				"name": "Массажная губка для душа",
+				"img": "https://www.letu.ru/common/img/products/DMDF47852.jpg",
+				"description": "description2",
+				"price": 22,
+				"reviews": "reviews2",
+				"brend": "fgdfg",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 2,
+				"date": "01.09.2010",
+				"name": "Пустая палетка на 6 оттенков",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/BXM3886BX_mainLG.jpg",
+				"description": "description3",
+				"price": 3112,
+				"reviews": "reviews3",
+				"brend": "sdfsdf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 3,
+				"date": "23.09.2010",
+				"name": "Магнитный футляр для теней и румян Beauty Box Trio Limited Edition Лимитированный выпуск",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/DEC100969LG.jpg",
+				"description": "description4",
+				"price": 4,
+				"reviews": "reviews4",
+				"brend": "fadsf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 4,
+				"date": "11.09.2010",
+				"name": "Ватные подушечки",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CDB5658CP_mainLG.jpg",
+				"description": "description5",
+				"price": 5,
+				"reviews": "reviews5",
+				"brend": "agr",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 5,
+				"date": "14.09.2010",
+				"name": "Футляр для губной помады THE ONLY ONE",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/DGB857385_mainLG.jpg",
+				"description": "description6",
+				"price": 26,
+				"reviews": "reviews6",
+				"brend": "hrter",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 6,
+				"date": "01.09.2010",
+				"name": "Футляр для губной помады Rouge G de Guerlain Xmas 2019",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/GUE042974LG.jpg",
+				"description": "description7",
+				"price": 7,
+				"reviews": "reviews7",
+				"brend": "sdfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 7,
+				"date": "23.09.2010",
+				"name": "Аромат для комнаты English Pear & Freesia Scent Surround Room Spray",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/JOM028481LG.jpg",
+				"description": "description8",
+				"price": 81,
+				"reviews": "reviews8",
+				"brend": "uuj",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 8,
+				"date": "51.09.2010",
+				"name": "Аромат для комнаты Lime Basil & Mandarin Scent Surround Room Spray",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/JOM024537LG.jpg",
+				"description": "description9",
+				"price": 9,
+				"reviews": "reviews9",
+				"brend": "rhfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 9,
+				"date": "43.09.2010",
+				"name": "Аромат для комнаты Pomegranate Noir Scent Surround Room Spray",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/JOM024544LG.jpg",
+				"description": "description10",
+				"price": 10,
+				"brend": "fdsaf",
+				"reviews": "reviews10",
+				"text": ["оптом", "розница"]
+			}
+		]
+	},
+	"kids": {
+		"isLoaded": {
+			"img": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+			"otherInformation": "В данном разделе представлена фирменная коллекция порфюмерии"
+		},
+		"items": [
+			{
+				"id": 0,
+				"name": "Набор для девочек",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/SAM498667_mainLG.jpg",
+				"description": "description1 sadfaslifasi asdnfjandslkfjn alskd fasdf iasdfiasdifwhsinf iasdfil asdf ausidf iasd",
+				"price": 11,
+				"reviews": "reviews1",
+				"brend": "asd",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 1,
+				"date": "31.09.2010",
+				"name": "Набор для мальчиков",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/SAM498934_mainLG.jpg",
+				"description": "description2",
+				"price": 22,
+				"reviews": "reviews2",
+				"brend": "fgdfg",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 2,
+				"date": "01.09.2010",
+				"name": "Детский гель для интимной гигиены",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/BNR0153ENLG.jpg",
+				"description": "description3",
+				"price": 3112,
+				"reviews": "reviews3",
+				"brend": "sdfsdf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 3,
+				"date": "23.09.2010",
+				"name": "Ароматизированная вода детская Ариэль",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/DIP030090LG.jpg",
+				"description": "description4",
+				"price": 4,
+				"reviews": "reviews4",
+				"brend": "fadsf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 4,
+				"date": "11.09.2010",
+				"name": "Ароматизированная вода детская Рапунцель",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/DIP330300LG.jpg",
+				"description": "description5",
+				"price": 5,
+				"reviews": "reviews5",
+				"brend": "agr",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 5,
+				"date": "14.09.2010",
+				"name": "Ароматизированная вода с блестками детская Золушка",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/DIP303009LG.jpg",
+				"description": "description6",
+				"price": 26,
+				"reviews": "reviews6",
+				"brend": "hrter",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 6,
+				"date": "01.09.2010",
+				"name": "Пена для ванны детская Белль",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/DIP073000LG.jpg",
+				"description": "description7",
+				"price": 7,
+				"reviews": "reviews7",
+				"brend": "sdfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 7,
+				"date": "23.09.2010",
+				"name": "Пена для ванны детская Золушка",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/DIP330730LG.jpg",
+				"description": "description8",
+				"price": 81,
+				"reviews": "reviews8",
+				"brend": "uuj",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 8,
+				"date": "51.09.2010",
+				"name": "Спрей для волос с блестками детский Принцесса",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/DIP330590LG.jpg",
+				"description": "description9",
+				"price": 9,
+				"reviews": "reviews9",
+				"brend": "rhfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 9,
+				"date": "43.09.2010",
+				"name": "Спрей-кондиционер для волос детский",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/DIP059000LG.jpg",
+				"description": "description10",
+				"price": 10,
+				"brend": "fdsaf",
+				"reviews": "reviews10",
+				"text": ["оптом", "розница"]
+			}
+		]
+	},
+	"gift": {
+		"isLoaded": {
+			"img": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+			"otherInformation": "В данном разделе представлена фирменная коллекция порфюмерии"
+		},
+		"items": [
+			{
+				"id": 0,
+				"name": "Набор Dolce Milk 129",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20126_mainLG.jpg",
+				"description": "description1 sadfaslifasi asdnfjandslkfjn alskd fasdf iasdfiasdifwhsinf iasdfil asdf ausidf iasd",
+				"price": 11,
+				"reviews": "reviews1",
+				"brend": "asd",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 1,
+				"date": "31.09.2010",
+				"name": "Набор 130",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20127_mainLG.jpg",
+				"description": "description2",
+				"price": 22,
+				"reviews": "reviews2",
+				"brend": "fgdfg",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 2,
+				"date": "01.09.2010",
+				"name": "Набор 131",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20128_mainLG.jpg",
+				"description": "description3",
+				"price": 3112,
+				"reviews": "reviews3",
+				"brend": "sdfsdf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 3,
+				"date": "23.09.2010",
+				"name": "Набор 132",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20129_mainLG.jpg",
+				"description": "description4",
+				"price": 4,
+				"reviews": "reviews4",
+				"brend": "fadsf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 4,
+				"date": "11.09.2010",
+				"name": "Набор Dolce Milk 133",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20218_mainLG.jpg",
+				"description": "description5",
+				"price": 5,
+				"reviews": "reviews5",
+				"brend": "agr",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 5,
+				"date": "14.09.2010",
+				"name": "Набор 134",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20240LG.jpg",
+				"description": "description6",
+				"price": 26,
+				"reviews": "reviews6",
+				"brend": "hrter",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 6,
+				"date": "01.09.2010",
+				"name": "Набор 135",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20241LG.jpg",
+				"description": "description7",
+				"price": 7,
+				"reviews": "reviews7",
+				"brend": "sdfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 7,
+				"date": "23.09.2010",
+				"name": "Набор 135",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20242LG.jpg",
+				"description": "description8",
+				"price": 81,
+				"reviews": "reviews8",
+				"brend": "uuj",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 8,
+				"date": "51.09.2010",
+				"name": "Набор Dolce Milk 137",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20219_mainLG.jpg",
+				"description": "description9",
+				"price": 9,
+				"reviews": "reviews9",
+				"brend": "rhfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 9,
+				"date": "43.09.2010",
+				"name": "Набор Dolce Milk 138",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20220_mainLG.jpg",
+				"description": "description10",
+				"price": 10,
+				"brend": "fdsaf",
+				"reviews": "reviews10",
+				"text": ["оптом", "розница"]
+			}
+		]
+	},
+	"brends": {
+		"isLoaded": {
+			"img": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+			"otherInformation": "В данном разделе представлена фирменная коллекция порфюмерии"
+		},
+		"items": [
+			{
+				"id": 0,
+				"name": "Набор Dolce Milk 129",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20126_mainLG.jpg",
+				"description": "description1 sadfaslifasi asdnfjandslkfjn alskd fasdf iasdfiasdifwhsinf iasdfil asdf ausidf iasd",
+				"price": 11,
+				"reviews": "reviews1",
+				"brend": "asd",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 1,
+				"date": "31.09.2010",
+				"name": "Набор 130",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20127_mainLG.jpg",
+				"description": "description2",
+				"price": 22,
+				"reviews": "reviews2",
+				"brend": "fgdfg",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 2,
+				"date": "01.09.2010",
+				"name": "Набор 131",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20128_mainLG.jpg",
+				"description": "description3",
+				"price": 3112,
+				"reviews": "reviews3",
+				"brend": "sdfsdf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 3,
+				"date": "23.09.2010",
+				"name": "Набор 132",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20129_mainLG.jpg",
+				"description": "description4",
+				"price": 4,
+				"reviews": "reviews4",
+				"brend": "fadsf",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 4,
+				"date": "11.09.2010",
+				"name": "Набор Dolce Milk 133",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20218_mainLG.jpg",
+				"description": "description5",
+				"price": 5,
+				"reviews": "reviews5",
+				"brend": "agr",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 5,
+				"date": "14.09.2010",
+				"name": "Набор 134",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20240LG.jpg",
+				"description": "description6",
+				"price": 26,
+				"reviews": "reviews6",
+				"brend": "hrter",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 6,
+				"date": "01.09.2010",
+				"name": "Набор 135",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20241LG.jpg",
+				"description": "description7",
+				"price": 7,
+				"reviews": "reviews7",
+				"brend": "sdfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 7,
+				"date": "23.09.2010",
+				"name": "Набор 135",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20242LG.jpg",
+				"description": "description8",
+				"price": 81,
+				"reviews": "reviews8",
+				"brend": "uuj",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 8,
+				"date": "51.09.2010",
+				"name": "Набор Dolce Milk 137",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20219_mainLG.jpg",
+				"description": "description9",
+				"price": 9,
+				"reviews": "reviews9",
+				"brend": "rhfgh",
+				"text": ["оптом", "розница"]
+			},
+			{
+				"id": 9,
+				"date": "43.09.2010",
+				"name": "Набор Dolce Milk 138",
+				"img": "https://www.letu.ru/common/img/uploaded/productImageFolder/CLOR20220_mainLG.jpgg",
+				"description": "description10",
+				"price": 10,
+				"brend": "fdsaf",
+				"reviews": "reviews10",
+				"text": ["оптом", "розница"]
+			}
+		]
+	}
+}
