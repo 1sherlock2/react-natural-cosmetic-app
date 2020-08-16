@@ -12,16 +12,16 @@ const path = require('path');
 
 // dotenv
 require('dotenv').config();
-const { PORT, mongoUri, TWO_HOURS, IN_PROD, SESS_NAME, SECRET_KEY } = process.env;
+const { PORT, mongoUri, IN_PROD, SESS_NAME, SECRET_KEY } = process.env;
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use('images', express.static('images'));
 app.use(cookieParser());
 // app.use(session({ secret: 'secret-key', saveUninitialized: false, resave: false }));
 app.use(
 	session({
 		name: SESS_NAME,
 		cookie: {
-			maxAge: TWO_HOURS,
+			maxAge: 1000 * 60 * 60 * 2,
 			sameSite: true,
 			secure: IN_PROD
 		},

@@ -123,26 +123,31 @@ router.get('/adversitingStock', (req, res) => {
 
 // stocks
 router.get('/stocks', (req, res) => {
-	req.session.sessionCount += 1;
-
-	StocksModel.find().then((items) => {
-		res.status(200).json({ items, sessionCount: req.session.sessionCount });
-	});
+	try {
+		StocksModel.find().then((items) => {
+			const totalCount = items.length;
+			res.status(200).json({ items, totalCount });
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
 });
 router.post('/stocks', upload.single('img'), (req, res) => {
 	try {
 		const data = req.body;
-		console.log(data);
+		const string = req.file.path;
+		const modernString = string.split('').splice(29).join('');
+
 		const post = new StocksModel({
 			name: data.name,
-			img: req.file.path,
+			img: modernString,
 			description: data.description,
 			price: data.price,
 			brend: data.brend
 		});
 		post.save().then(() => {
 			res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
-			res.status(200).json({ post });
+			res.status(200).json({ message: 'post was added' });
 		});
 	} catch (e) {
 		console.log(e.message);
@@ -163,38 +168,71 @@ router.delete('/stocks/:id', (req, res) => {
 });
 
 //korea
-router.post('/korea', (req, res) => {
+router.get('/korea', (req, res) => {
+	try {
+		KoreaModel.find().then((items) => {
+			const totalCount = items.length;
+			res.status(200).json({ items, totalCount });
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
+});
+router.post('/korea', upload.single('img'), (req, res) => {
 	try {
 		const data = req.body;
-		console.log(data);
+		const string = req.file.path;
+		const modernString = string.split('').splice(29).join('');
 		const post = new KoreaModel({
 			name: data.name,
-			img: data.img,
+			img: modernString,
 			description: data.description,
 			price: data.price,
 			reviews: data.reviews,
 			brend: data.brend
 		});
 		post.save().then(() => {
-			res.status(200).json({ post });
+			res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+			res.status(200).json({ message: 'post was added' });
 		});
-	} catch (e) {}
+	} catch (e) {
+		console.log(e.message);
+	}
 });
 
-router.get('/korea', (req, res) => {
-	KoreaModel.find().then((items) => {
-		res.status(200).json({ items });
-	});
+router.delete('/korea/:id', (req, res) => {
+	try {
+		KoreaModel.deleteOne({ _id: req.params.id }).then((response) => {
+			if (response) {
+				res.status(200).json({ status: 'deleted' });
+			} else {
+				res.json({ status: 'somethink error' });
+			}
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
 });
 
 //makeUp
+router.get('/makeUp', (req, res) => {
+	try {
+		MakeUpModel.find().then((items) => {
+			const totalCount = items.length;
+			res.status(200).json({ items, totalCount });
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
+});
 router.post('/makeUp', (req, res) => {
 	try {
 		const data = req.body;
-		console.log(data);
+		const string = req.file.path;
+		const modernString = string.split('').splice(29).join('');
 		const post = new MakeUpModel({
 			name: data.name,
-			img: data.img,
+			img: modernString,
 			description: data.description,
 			price: data.price,
 			reviews: data.reviews,
@@ -206,20 +244,39 @@ router.post('/makeUp', (req, res) => {
 	} catch (e) {}
 });
 
-router.get('/makeUp', (req, res) => {
-	MakeUpModel.find().then((items) => {
-		res.status(200).json({ items });
-	});
+router.delete('/makeUp/:id', (req, res) => {
+	try {
+		MakeUpModel.deleteOne({ _id: req.params.id }).then((response) => {
+			if (response) {
+				res.status(200).json({ status: 'deleted' });
+			} else {
+				res.json({ status: 'somethink error' });
+			}
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
 });
 
 //perfumery
+router.get('/perfumery', (req, res) => {
+	try {
+		PerfumeryModel.find().then((items) => {
+			const totalCount = items.length;
+			res.status(200).json({ items, totalCount });
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
+});
 router.post('/perfumery', (req, res) => {
 	try {
 		const data = req.body;
-		console.log(data);
+		const string = req.file.path;
+		const modernString = string.split('').splice(29).join('');
 		const post = new PerfumeryModel({
 			name: data.name,
-			img: data.img,
+			img: modernString,
 			description: data.description,
 			price: data.price,
 			reviews: data.reviews,
@@ -228,23 +285,43 @@ router.post('/perfumery', (req, res) => {
 		post.save().then(() => {
 			res.status(200).json({ post });
 		});
-	} catch (e) {}
+	} catch (e) {
+		console.log(e.message);
+	}
 });
-
-router.get('/perfumery', (req, res) => {
-	PerfumeryModel.find().then((items) => {
-		res.status(200).json({ items });
-	});
+router.delete('/perfumery/:id', (req, res) => {
+	try {
+		PerfumeryModel.deleteOne({ _id: req.params.id }).then((response) => {
+			if (response) {
+				res.status(200).json({ status: 'deleted' });
+			} else {
+				res.json({ status: 'somethink error' });
+			}
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
 });
 
 //skinCare
+router.get('/skinCare', (req, res) => {
+	try {
+		SkinCareModel.find().then((items) => {
+			const totalCount = items.length;
+			res.status(200).json({ items, totalCount });
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
+});
 router.post('/skinCare', (req, res) => {
 	try {
 		const data = req.body;
-		console.log(data);
+		const string = req.file.path;
+		const modernString = string.split('').splice(29).join('');
 		const post = new SkinCareModel({
 			name: data.name,
-			img: data.img,
+			img: modernString,
 			description: data.description,
 			price: data.price,
 			reviews: data.reviews,
@@ -253,23 +330,43 @@ router.post('/skinCare', (req, res) => {
 		post.save().then(() => {
 			res.status(200).json({ post });
 		});
-	} catch (e) {}
+	} catch (e) {
+		console.log(e.message);
+	}
 });
-
-router.get('/skinCare', (req, res) => {
-	SkinCareModel.find().then((items) => {
-		res.status(200).json({ items });
-	});
+router.delete('/skinCare/:id', (req, res) => {
+	try {
+		SkinCareModel.deleteOne({ _id: req.params.id }).then((response) => {
+			if (response) {
+				res.status(200).json({ status: 'deleted' });
+			} else {
+				res.json({ status: 'somethink error' });
+			}
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
 });
 
 //men
+router.get('/men', (req, res) => {
+	try {
+		MenModel.find().then((items) => {
+			const totalCount = items.length;
+			res.status(200).json({ items, totalCount });
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
+});
 router.post('/men', (req, res) => {
 	try {
 		const data = req.body;
-		console.log(data);
+		const string = req.file.path;
+		const modernString = string.split('').splice(29).join('');
 		const post = new MenModel({
 			name: data.name,
-			img: data.img,
+			img: modernString,
 			description: data.description,
 			price: data.price,
 			reviews: data.reviews,
@@ -280,21 +377,39 @@ router.post('/men', (req, res) => {
 		});
 	} catch (e) {}
 });
-
-router.get('/men', (req, res) => {
-	MenModel.find().then((items) => {
-		res.status(200).json({ items });
-	});
+router.delete('/men/:id', (req, res) => {
+	try {
+		MenModel.deleteOne({ _id: req.params.id }).then((response) => {
+			if (response) {
+				res.status(200).json({ status: 'deleted' });
+			} else {
+				res.json({ status: 'somethink error' });
+			}
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
 });
 
 //accessories
+router.get('/accessories', (req, res) => {
+	try {
+		AccessoriesModel.find().then((items) => {
+			const totalCount = items.length;
+			res.status(200).json({ items, totalCount });
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
+});
 router.post('/accessories', (req, res) => {
 	try {
 		const data = req.body;
-		console.log(data);
+		const string = req.file.path;
+		const modernString = string.split('').splice(29).join('');
 		const post = new AccessoriesModel({
 			name: data.name,
-			img: data.img,
+			img: modernString,
 			description: data.description,
 			price: data.price,
 			reviews: data.reviews,
@@ -303,23 +418,43 @@ router.post('/accessories', (req, res) => {
 		post.save().then(() => {
 			res.status(200).json({ post });
 		});
-	} catch (e) {}
+	} catch (e) {
+		console.log(e.message);
+	}
 });
-
-router.get('/accessories', (req, res) => {
-	AccessoriesModel.find().then((items) => {
-		res.status(200).json({ items });
-	});
+router.delete('/accessories/:id', (req, res) => {
+	try {
+		AccessoriesModel.deleteOne({ _id: req.params.id }).then((response) => {
+			if (response) {
+				res.status(200).json({ status: 'deleted' });
+			} else {
+				res.json({ status: 'somethink error' });
+			}
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
 });
 
 //kids
+router.get('/kids', (req, res) => {
+	try {
+		KidsModel.find().then((items) => {
+			const totalCount = items.length;
+			res.status(200).json({ items, totalCount });
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
+});
 router.post('/kids', (req, res) => {
 	try {
 		const data = req.body;
-		console.log(data);
+		const string = req.file.path;
+		const modernString = string.split('').splice(29).join('');
 		const post = new KidsModel({
 			name: data.name,
-			img: data.img,
+			img: modernString,
 			description: data.description,
 			price: data.price,
 			reviews: data.reviews,
@@ -330,21 +465,38 @@ router.post('/kids', (req, res) => {
 		});
 	} catch (e) {}
 });
-
-router.get('/kids', (req, res) => {
-	KidsModel.find().then((items) => {
-		res.status(200).json({ items });
-	});
+router.delete('/kids/:id', (req, res) => {
+	try {
+		KidsModel.deleteOne({ _id: req.params.id }).then((response) => {
+			if (response) {
+				res.status(200).json({ status: 'deleted' });
+			} else {
+				res.json({ status: 'somethink error' });
+			}
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
 });
-
 //gift
+router.get('/gift', (req, res) => {
+	try {
+		GiftModel.find().then((items) => {
+			const totalCount = items.length;
+			res.status(200).json({ items, totalCount });
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
+});
 router.post('/gift', (req, res) => {
 	try {
 		const data = req.body;
-		console.log(data);
+		const string = req.file.path;
+		const modernString = string.split('').splice(29).join('');
 		const post = new GiftModel({
 			name: data.name,
-			img: data.img,
+			img: modernString,
 			description: data.description,
 			price: data.price,
 			reviews: data.reviews,
@@ -355,11 +507,18 @@ router.post('/gift', (req, res) => {
 		});
 	} catch (e) {}
 });
-
-router.get('/gift', (req, res) => {
-	GiftModel.find().then((items) => {
-		res.status(200).json({ items });
-	});
+router.delete('/gift/:id', (req, res) => {
+	try {
+		GiftModel.deleteOne({ _id: req.params.id }).then((response) => {
+			if (response) {
+				res.status(200).json({ status: 'deleted' });
+			} else {
+				res.json({ status: 'somethink error' });
+			}
+		});
+	} catch (e) {
+		console.log(e.message);
+	}
 });
 
 module.exports = router;

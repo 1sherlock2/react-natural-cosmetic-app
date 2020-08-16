@@ -1,11 +1,14 @@
 // image storage
 const multer = require('multer');
+const path = require('path');
+
 const storage = multer.diskStorage({
 	destination: function (req, file, cb) {
-		cb(null, 'public/images/');
+		// cb(null, 'public/images/');
+		cb(null, 'react-natural-cosmetic/public/images');
 	},
 	filename: function (req, file, cb) {
-		cb(null, new Date().toISOString() + ' ' + file.originalname);
+		cb(null, file.originalname);
 	}
 });
 const fileFilter = (req, file, cb) => {
