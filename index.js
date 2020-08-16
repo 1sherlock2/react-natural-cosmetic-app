@@ -6,19 +6,30 @@ const login = require('./src/controllers/LoginController');
 const products = require('./src/controllers/ProductsController');
 const app = express();
 const session = require('express-session');
-var cookieParser = require('cookie-parser');
+// const expressValidator = require('express-validator');
+const cookieParser = require('cookie-parser');
 const path = require('path');
-// const PORT = config.get('appPort');
-// const mongoUri = config.get('mongoUri');
-require('dotenv').config();
-const PORT = process.env.PORT;
-const mongoUri = process.env.mongoUri;
 
-// app.use('/images', express.static('public'));
+// dotenv
+require('dotenv').config();
+const { PORT, mongoUri, TWO_HOURS, IN_PROD, SESS_NAME, SECRET_KEY } = process.env;
+
 app.use(express.static(path.join(__dirname, 'public')));
-// app.use(express.static(__dirname, 'images'));
 app.use(cookieParser());
-app.use(session({ secret: 'ssshhh', saveUninitialized: true, resave: true }));
+// app.use(session({ secret: 'secret-key', saveUninitialized: false, resave: false }));
+app.use(
+	session({
+		name: SESS_NAME,
+		cookie: {
+			maxAge: TWO_HOURS,
+			sameSite: true,
+			secure: IN_PROD
+		},
+		resave: false,
+		saveUninitialized: false,
+		secret: SECRET_KEY
+	})
+);
 let urlencodedFalse = bodyParser.urlencoded({ extended: false });
 let bodyParserJsonTrue = bodyParser.json({
 	inflate: true,
@@ -40,6 +51,7 @@ mongoose.connect(mongoUri, {
 app.listen(PORT, () => {
 	console.log(`server was started in ${PORT} port`);
 });
+// app.use(expressValidator());
 
 // app.use(cors({ credentials: true, origin: true, allowedHeaders: ['Content-Type', 'Authorization'] }));
 
@@ -58,3 +70,6 @@ app.listen(PORT, () => {
 // 	}
 // 	next();
 // });
+
+// app.use(express.static(__dirname, 'images'));
+// app.use('/images', express.static('public'));

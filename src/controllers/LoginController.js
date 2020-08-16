@@ -36,9 +36,9 @@ router.post('/register', (req, res) => {
 router.post('/auth', (req, res) => {
 	try {
 		const { email, password } = req.body;
-
+		// req.check('email', 'Invalid email adress').isEmail();
+		// res.check('password', 'Password invalid').isLength({ min: 8 }).equal(password);
 		return LoginModel.findOne({ email }).then((user) => {
-			// console.log(user);
 			if (!user) {
 				return res.status(400).json({
 					message: 'It user is not found'
@@ -54,8 +54,8 @@ router.post('/auth', (req, res) => {
 			});
 			let sess = req.session;
 			sess.email = req.body.email;
-			const admin = groupAdmin.filter((item) => item === 'alim.gazdiev@gmail.com').join('');
 			console.log(sess);
+			const admin = groupAdmin.filter((item) => item === 'alim.gazdiev@gmail.com').join('');
 			if (admin === sess.email) {
 				res.status(200).json({ token, userId: user.id, right: 'admin' });
 			}

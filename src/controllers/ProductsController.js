@@ -123,8 +123,10 @@ router.get('/adversitingStock', (req, res) => {
 
 // stocks
 router.get('/stocks', (req, res) => {
+	req.session.sessionCount += 1;
+
 	StocksModel.find().then((items) => {
-		res.status(200).json({ items });
+		res.status(200).json({ items, sessionCount: req.session.sessionCount });
 	});
 });
 router.post('/stocks', upload.single('img'), (req, res) => {
