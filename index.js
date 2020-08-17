@@ -5,10 +5,7 @@ const bodyParser = require('body-parser');
 const login = require('./src/controllers/LoginController');
 const products = require('./src/controllers/ProductsController');
 const app = express();
-const session = require('express-session');
-// const expressValidator = require('express-validator');
 const cookieParser = require('cookie-parser');
-const path = require('path');
 
 // dotenv
 require('dotenv').config();
@@ -16,25 +13,12 @@ const { PORT, mongoUri, IN_PROD, SESS_NAME, SECRET_KEY } = process.env;
 
 app.use('images', express.static('images'));
 app.use(cookieParser());
-// app.use(session({ secret: 'secret-key', saveUninitialized: false, resave: false }));
-app.use(
-	session({
-		name: SESS_NAME,
-		cookie: {
-			maxAge: 1000 * 60 * 60 * 2,
-			sameSite: true,
-			secure: IN_PROD
-		},
-		resave: false,
-		saveUninitialized: false,
-		secret: SECRET_KEY
-	})
-);
 let urlencodedFalse = bodyParser.urlencoded({ extended: false });
 let bodyParserJsonTrue = bodyParser.json({
 	inflate: true,
 	strict: true
 });
+
 app.use(cors({ credentials: true, origin: true }));
 
 // routers
@@ -51,6 +35,7 @@ mongoose.connect(mongoUri, {
 app.listen(PORT, () => {
 	console.log(`server was started in ${PORT} port`);
 });
+
 // app.use(expressValidator());
 
 // app.use(cors({ credentials: true, origin: true, allowedHeaders: ['Content-Type', 'Authorization'] }));
@@ -73,3 +58,19 @@ app.listen(PORT, () => {
 
 // app.use(express.static(__dirname, 'images'));
 // app.use('/images', express.static('public'));
+
+// app.use(session({ secret: 'secret-key', saveUninitialized: false, resave: false }));
+
+// app.use(
+// 	session({
+// 		name: SESS_NAME,
+// 		cookie: {
+// 			maxAge: 1000 * 60 * 60 * 2,
+// 			sameSite: true,
+// 			secure: IN_PROD
+// 		},
+// 		resave: false,
+// 		saveUninitialized: false,
+// 		secret: SECRET_KEY
+// 	})
+// );

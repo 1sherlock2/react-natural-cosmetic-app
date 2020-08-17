@@ -4,6 +4,7 @@ const router = Router();
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const groupAdmin = require('../groups/groups');
+const SESS_NAME = require('../../index');
 
 router.post('/register', (req, res) => {
 	try {
@@ -52,15 +53,20 @@ router.post('/auth', (req, res) => {
 					});
 				}
 			});
-			let sess = req.session;
-			sess.email = req.body.email;
-			console.log(sess);
 			const admin = groupAdmin.filter((item) => item === 'alim.gazdiev@gmail.com').join('');
-			if (admin === sess.email) {
+			if (admin === email) {
 				res.status(200).json({ token, userId: user.id, right: 'admin' });
 			}
 			return res.status(200).json({ token, userId: user.id });
 		});
+	} catch (e) {
+		console.log(e.message);
+	}
+});
+
+router.post('/logout', (req, res) => {
+	try {
+		res.status(200).json({ message: 'logout' });
 	} catch (e) {
 		console.log(e.message);
 	}
